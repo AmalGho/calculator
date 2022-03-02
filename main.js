@@ -22,11 +22,11 @@ buttons.map( button => {
             case 'DEL':
                 if (display.innerText){
                     display.innerText = display.innerText.slice(0, -1);
-                    al.innerText = al.innerText.slice(0, -1);
+                    equ.innerText = equ.innerText.slice(0, -1);
                 }
                 break;
             default:
-                if (e.target.innerText == Number || e.target.innerText == '0'){
+                if ( !isNaN(e.target.innerText) ){
                     display.innerText = e.target.innerText;
                 }
                 equ.innerText += e.target.innerText;
