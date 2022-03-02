@@ -25,6 +25,7 @@ section {
     gap: 10px;
     user-select: none;
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     box-shadow: 0 0 10px #ffffff70;
     border-radius: 10px;
 }
