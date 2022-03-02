@@ -51,16 +51,22 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--i);
     font-weight: 500;
     font-size: 1.5rem;
     cursor: pointer;
+    background-color: #00000070;
 }
 
 .container span:first-of-type,
 .container span:nth-of-type(2),
 .container span:nth-of-type(3) {
-    color: #1C1C1C;
+    color: #000;  
+    background-color: #ffffff70; 
+}
+
+.container span:nth-of-type(4n+0),
+.container span:nth-of-type(19) {
+    background-color: #f50f5070;
 }
 
 .container span.zero {
